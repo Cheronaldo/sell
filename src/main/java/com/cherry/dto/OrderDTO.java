@@ -22,6 +22,7 @@ import java.util.List;
 //@JsonInclude(JsonInclude.Include.NON_NULL)
 public class OrderDTO {
     //dto : 数据传输对象  用于服务层（service）的数据传输  主要是用于项目内部各层的数据传输  如 service层和controller层的数据传输交互
+    // 应用场景，服务层处理的数据对象，与控制层处理的数据对象属性密切相关但不完全相同的情况
 
     private String orderId;
     //买家名字
